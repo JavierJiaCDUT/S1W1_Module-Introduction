@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHC5056 Innovative Product Development - Week 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .tag-personal {
+            background-color: #dbeafe;
+            color: #1e40af;
+        }
+        .tag-group {
+            background-color: #d1fae5;
+            color: #065f46;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <h1 class="text-3xl font-bold text-slate-900">CHC5056: Innovative Product Development (IPD)</h1>
+            <p class="mt-2 text-lg text-slate-600">Week 1: Welcome & Introduction</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="space-y-10">
+
+            <!-- 1. Module Introduction & Course Objectives -->
+            <section id="introduction" class="card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">Module Introduction & Course Objectives</h2>
+                <div class="space-y-4 text-slate-700">
+                    <p>Welcome to the <span class="font-semibold text-sky-700">CHC5056 Innovative Product Development</span> module!</p>
+                    <p>The core of this module is <strong class="text-sky-600">Practical Application</strong>. Through a year-long <strong class="text-sky-600">Team Project</strong>, you will gain hands-on experience in the development of a computing-related product.</p>
+                    <ul class="list-disc list-inside space-y-2 pl-4">
+                        <li>Gain practical experience in team-based product development.</li>
+                        <li>Learn essential skills in product development, project management, and teamwork.</li>
+                        <li>Prepare for your L6 graduation design project.</li>
+                        <li>Explore important topics like society, law, ethics, and professional skills.</li>
+                    </ul>
+                    <p>The course is structured around one or more development iterations (Sprints) to simulate a real-world agile environment.</p>
+                </div>
+            </section>
+
+            <!-- 2. Overview of Assessment Methods -->
+            <section id="assessment" class="card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-900 mb-6">Overview of Assessment Methods</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="border border-slate-200 rounded-lg p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">Part A: Project Proposal</h3>
+                            <span class="tag tag-personal">Personal</span>
+                        </div>
+                        <p class="text-3xl font-bold text-sky-600 mt-2">30%</p>
+                        <p class="text-sm text-slate-500 mt-1">A detailed individual project plan report.</p>
+                    </div>
+                    <div class="border border-slate-200 rounded-lg p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">Part B: Group Presentation</h3>
+                            <span class="tag tag-group">Group</span>
+                        </div>
+                        <p class="text-3xl font-bold text-emerald-600 mt-2">10%</p>
+                        <p class="text-sm text-slate-500 mt-1">A public demonstration of the team's project.</p>
+                    </div>
+                    <div class="border border-slate-200 rounded-lg p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">Part C: Employability Portfolio</h3>
+                            <span class="tag tag-personal">Personal</span>
+                        </div>
+                        <p class="text-3xl font-bold text-sky-600 mt-2">10%</p>
+                        <p class="text-sm text-slate-500 mt-1">Materials focusing on career development.</p>
+                    </div>
+                    <div class="border border-slate-200 rounded-lg p-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">Part D: Class Test</h3>
+                             <span class="tag tag-personal">Personal</span>
+                        </div>
+                        <p class="text-3xl font-bold text-sky-600 mt-2">10%</p>
+                        <p class="text-sm text-slate-500 mt-1">A test on key knowledge points from the course.</p>
+                    </div>
+                    <div class="md:col-span-2 border border-slate-200 rounded-lg p-4 bg-slate-50">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">Part E: Personal Journal</h3>
+                            <span class="tag tag-personal">Personal</span>
+                        </div>
+                        <p class="text-3xl font-bold text-sky-600 mt-2">40%</p>
+                        <p class="text-sm text-slate-500 mt-1">A personal reflection and contribution record based on the <strong class="font-semibold">group</strong> project process. This is the most heavily weighted component.</p>
+                    </div>
+                </div>
+                <div class="mt-6 p-4 bg-sky-100 border-l-4 border-sky-500 text-sky-800 rounded-r-lg">
+                    <p><strong class="font-semibold">Important:</strong> The Part A Project Proposal is the first major deadline, due in <strong class="font-semibold">Week 5 of the first semester</strong>.</p>
+                </div>
+            </section>
+            
+            <!-- 3. Core Concepts of IPD -->
+            <section id="core-concepts" class="card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">Core Concepts of Innovative Product Development (IPD)</h2>
+                <div class="space-y-4 text-slate-700">
+                    <p><strong class="text-slate-900">Project:</strong> A <strong class="text-sky-600">temporary</strong> endeavor designed to create a <strong class="text-sky-600">unique</strong> product, service, or result.</p>
+                    <p><strong class="text-slate-900">Product:</strong> A quantifiable artifact. In computing, this is usually software, a system, or a service.</p>
+                    <p><strong class="text-slate-900">Product Development:</strong> The life cycle of creating and evolving a product or service. This module focuses on <strong class="text-sky-600">Innovative</strong> Product Development.</p>
+                    <p><strong class="text-slate-900">Value:</strong> The worth, importance, or usefulness of something. Value is the ultimate indicator of project success. How project outcomes <strong class="text-sky-600">deliver value</strong> to stakeholders is our core focus.</p>
+                    <p><strong class="text-slate-900">System for Value Delivery:</strong> A collection of strategic business activities, including projects, designed to build, maintain, and/or advance an organization.</p>
+                    <p>To cope with uncertainty and change, this module will focus on <strong class="text-sky-600">adaptive/agile methods</strong>.</p>
+                </div>
+            </section>
+
+            <!-- 4. Project Management Principles & Performance Domains -->
+            <section id="pm-principles" class="card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">Project Management Principles & Performance Domains</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-slate-800 mb-3">Project Management Principles</h3>
+                        <p class="mb-4 text-slate-600">Principles are basic guidelines that guide behavior. From the PMBOK® Guide 7th Edition, highly relevant principles include:</p>
+                        <ul class="list-none space-y-3">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-sky-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><strong class="text-slate-800">Focus on Value:</strong> Value is the ultimate indicator of project success.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-sky-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><strong class="text-slate-800">Create a Collaborative Project Team Environment:</strong> Teamwork is essential.</span>
+                            </li>
+                             <li class="flex items-start">
+                                <svg class="w-6 h-6 text-sky-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><strong class="text-slate-800">Embrace Adaptability and Resiliency:</strong> Relevant to our use of Agile methods.</span>
+                            </li>
+                            <li class="flex items-start">
+                               <svg class="w-6 h-6 text-sky-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><strong class="text-slate-800">Tailor Based on Context:</strong> Project approaches need to be tailored to the specific context.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-slate-800 mb-3">Project Performance Domains</h3>
+                        <p class="mb-4 text-slate-600">These are key groups of activities required to deliver project outcomes. The 8 domains form the structure of this module:</p>
+                        <div class="grid grid-cols-2 gap-x-4 gap-y-2 text-slate-700">
+                           <p>1. Stakeholders</p>
+                           <p>2. Team</p>
+                           <p>3. Development Approach & Life Cycle</p>
+                           <p>4. Planning</p>
+                           <p>5. Project Work</p>
+                           <p>6. Delivery</p>
+                           <p>7. Measurement</p>
+                           <p>8. Uncertainty</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 5. Part A Preparation -->
+            <section id="part-a-prep" class="card p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">Preparing for Part A: Project Proposal</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-800">Phase 1: Initial Preparation & Planning (2-3 weeks before submission)</h3>
+                        <ol class="list-decimal list-inside space-y-2 mt-2 text-slate-700 pl-4">
+                            <li><strong class="text-slate-900">Determine the project topic:</strong> Choose from the provided list or come up with your own original, innovative, and feasible idea.</li>
+                            <li><strong class="text-slate-900">Discuss with classmates and mentors:</strong> Although this is an individual assignment, discussing ideas can provide inspiration.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. Summary and Q&A -->
+            <section id="summary" class="bg-sky-800 text-white rounded-lg p-6 md:p-8">
+                <h2 class="text-2xl font-bold mb-4">Summary & Next Steps</h2>
+                <p class="mb-4">This week, we covered the module's objectives, assessments, and core concepts like projects, value, and agile. We also introduced the PM principles and performance domains that will guide us. Your main task now is to start thinking about your Part A proposal.</p>
+                <div class="mt-4">
+                    <p class="font-semibold">What to do next:</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1">
+                        <li>Review the Module Guide in detail, especially the Part A requirements.</li>
+                        <li>Start brainstorming project ideas.</li>
+                        <li>Be prepared to discuss your ideas in next week's seminar.</li>
+                    </ul>
+                </div>
+                <p class="mt-6 text-sky-200">Feel free to ask any questions!</p>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 mt-10">
+        <p class="text-sm text-slate-500">&copy; CHC5056 Innovative Product Development</p>
+    </footer>
+
+</body>
+</html>
